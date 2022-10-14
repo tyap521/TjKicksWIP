@@ -1,0 +1,83 @@
+@font-face { font-family: Custom; src: url('Valorant.ttf'); } 
+
+body {
+	background-image: url(backgrounds/websitebackground3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+}
+
+a {
+	color: black;
+	font-family: Custom;
+}
+
+/* Navigation Bar */
+.header {
+	padding: 30px;
+	background: #6495ed;
+	font-size: 30px;
+}
+.logo {
+	margin: 14px;
+	margin-left: 20px;
+	position: absolute;
+	length: 65px;
+	width: 65px;
+}
+.nav {
+	margin-left: 60px;
+}
+a.nav:hover {
+  background-color: #87ceeb;
+}
+
+/* Shoe Title and Cards */
+.titleCard {
+	background-color: #6495ed;
+	color: black;
+	width :  250px;
+	height : 40px;
+	border-radius: 7px;
+	margin-left: 30px;
+	margin-top: 50px;
+	text-align: center;
+	font-family: Custom;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.shoeCard {
+	background-color: #6495ed;
+	width :  200px;
+	height : 240px;
+	border-radius: 7px;
+	margin-left: 30px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: Custom;
+	text-align: center;
+	float: left;
+}
+.shoeImage {
+	length: 175px;
+	width: 175px;
+}
+
+
+/* Shop Menu */
+.sportShoes {
+	width :  300px;
+	height : 300px;
+	border-radius: 7px;
+	float: left;
+	margin-left: 110px;
+	margin-top: 100px;
+	cursor: pointer;
+}
+.shoes {
+	width: 300px;
+	length: 300px;
+}
+a.cardanim:hover {
+  opacity: 0.4;
+}
